@@ -16,6 +16,8 @@ tasks.withType(JavaCompile) {
 }
 
 ext {
+    scalaVersion = "2.11.8"
+    log4j2Version = '2.7'
 }
 
 repositories {
